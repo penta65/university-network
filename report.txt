@@ -1,0 +1,44 @@
+
+DESCRIPTION
+
+In our project, we have implemented university’s network using ECNM (Enterprise Composite Network Model) Model which provides a detailed design for the enterprise campus network and a converged, intelligent infrastructure to access IT resources across enterprise locations. This model expands on the traditional hierarchical concepts of core, distribution, and access layers and is based on the principles described in Cisco’s description of converged networks. It is therefore important to keep in mind that this is not an industry standard but, rather, a Cisco recommendation.
+
+The model provides a framework for the recommended design and implementation of an enterprise campus network. The enterprise campus is comprised of the following modules:
+The Building or Switch Module
+The Core Module
+The Management Module
+The Server Module
+
+The building or switch module is defined as the portion of the network that contains end-user workstations, phones, and their associated Layer 2 access points. Its primary goal is to provide services to end users. This module is comprised of access layer switches as well as their related distribution layer switches. This is simply the access layer in the hierarchical network model.
+The core module is the portion of the network that routes and switches traffic as fast as possible from one network to another. This is simply the core layer in the hierarchical network model.
+The management module allows for the secure management of all devices and hosts within the enterprise. Within this module, logging and reporting information flows from the devices to the management hosts, while content, configurations, and new software flows to the devices from the management hosts. This is simply the distribution layer in the hierarchical network model.
+ 
+
+
+External-facing servers, resources and services are located in the DMZ (demilitarized zone) layer which is a physical or logical sub-network that separates an internal local area network (LAN) from other untrusted networks, usually the Internet.  So they are accessible from the Internet but the rest of the internal LAN remains unreachable. This provides an additional layer of security to the LAN as it restricts the ability of hackers to directly access internal servers and data via the Internet.
+
+
+Requirements:
+Hierarchical network design provides following advantages:
+A network where the end devices of hostel connect with server.
+A network where the end devices of department connect with server.
+A network where the end devices of library connect with server.
+A network where the end devices of hostel connect with server.
+A network where the Narc office connects with the server.
+Network access for the Guest House.
+So, we used the devices such as routers, servers, switches while designing the network of UET taxila, The network in UET taxila is based on an approach that uses two links, in case when one of them is down other one becomes up.
+Advantages:
+Hierarchical network design provides following advantages:
+Ease of design
+Efficient, fast and logical traffic forwarding patterns
+Minimize the cost of connecting multiple devices at network endpoints
+ Adapt well to business expansion
+Traffic Multiplexing
+Equipment Cost Savings
+Security
+Limitations:
+System complexity
+Operational Anomalies
+Absence of structural independence
+
+					
